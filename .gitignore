@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Unused components
+./src/Components/Television/*
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
