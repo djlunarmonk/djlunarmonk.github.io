@@ -1,0 +1,65 @@
+{
+    "resume": {
+        "personals": {
+            "name": "Jon Lundmark",
+            "birthdate": "1978-05-01",
+            "snailmail": {  "address": "Egilsgatan 17B",
+                        "zipcode": "753 35",
+                        "city": "Uppsala"},
+            "phone": "(+46) 0706 - 39 83 43",
+            "email": "jonlundmark@gmail.com"
+        },
+        "sections": [ { "title": "I korthet",
+                        "body": "En öppen person med breda erfarenheter, en lagspelare som är bra på att lyssna. Stort musikintresse. Skrev mitt första spel i BASIC 1989 har sedan dess stimulerats av att kommunicera både med och genom datorer.",
+                        "merits": null
+                    },
+                    {
+                        "title": "Utbildning",
+                        "merits": [ { "title": "Nackademin",
+                                    "position": "Programutveckling .NET",
+                                    "when": "augusti 2023 - maj 2025",
+                                    "where": "Solna",
+                                    "body": "C#, SQL, HTML, CSS, JS, React, ASP.NET, Blazor, Azure."
+                                    },
+                                    { "title": "Uppsala universitet",
+                                    "position": "Magisterprogram biologi",
+                                    "when": "september 1997 - november 2003",
+                                    "where": "Uppsala",
+                                    "body": "Utöver huvudämnet kemi, filosofi, matematik, ekonomi, programmering (C)."
+                                } ]
+                    },
+                    {
+                        "title": "Erfarenhet",
+                        "merits": [ { "title": "PostNord",
+                                    "position": "Brevbärare",
+                                    "when": "december 2003 - augusti 2023",
+                                    "where": "Uppsala",
+                                    "body": "Utökade administrativa uppgifter inom ruttlogistik, mottagarregister och friskvårdsarbete. Detta ledde till att jag blev rekryterad som produktionsledare."
+                                    },
+                                    { "title": "PostNord",
+                                    "position": "Produktionsledare",
+                                    "when": "september 2017 - september 2019",
+                                    "where": "Uppsala",
+                                    "body": "Ansvarade för driften av ett brevbärarkontor (ca 15 000 hushåll). Schemaläggning, fordonsplanering och materialinköp samt daglig kontakt med kund och partner."
+                                    },
+                                    { "title": "MiTek",
+                                    "position": "Utvecklarassistent",
+                                    "when": "Sommarjobb 2000",
+                                    "where": "Skellefteå",
+                                    "body": "Arbetade med utvecklingen av mjukvarorna TrussCon och RoofCon, som assistent till en utvecklare."
+                                } ]
+                    },
+                    { "title": "Förtroendeuppdrag",
+                        "merits": [ { "title": "Brf Sigge",
+                                    "position": "Ordförande",
+                                    "when": "maj 2011 - april 2013",
+                                    "where": "Uppsala",
+                                    "body": ""
+                                } ]
+                    },
+                    { "title": "Övrigt",
+                      "body": "Referenser och övrig information lämnas på begäran.",
+                      "merits": null
+                    } ]   
+    } 
+}
