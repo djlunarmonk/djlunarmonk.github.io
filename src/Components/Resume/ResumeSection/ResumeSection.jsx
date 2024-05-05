@@ -5,7 +5,7 @@ const ResumeSection = ({section}) => {
 
     return( <div className='resume-section' id={section.title}>
                 <div className="resume-section-header">
-                    { section.title }
+                <h2>{ section.title }</h2>
                 </div>
                 <div className="resume-section-body">
                     { (section.merits == null) ? <p>{section.body}</p> :

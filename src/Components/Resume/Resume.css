@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
 .resume {
     padding: 0;
@@ -8,10 +8,9 @@
     height: 100%;
 
     color: black;
-    font-family: 'Noto Serif Display', 'Times New Roman', 'Times', serif;
-    font-size: 14pt;
-    font-stretch: condensed;
-    font-weight: 300;
+    font-family: 'Noto Serif', 'Times New Roman', 'Times', serif;
+    font-size: 16pt;
+    font-weight: 400;
     text-align: left;
 
     display: flex;
@@ -24,7 +23,7 @@
     padding: 3rem 0;
     border-right: 2px solid hsl(34, 68%, 82%);
     border-left: 2px solid hsl(34, 68%, 82%);
-    background-color: hsl(34, 78%, 92%);
+    background-color: hsl(34, 77%, 92%);
 
     display: flex;
     flex-direction: column;
@@ -37,7 +36,7 @@
     justify-content: center;
     align-items: center;
     width: 95%;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
 .headshot {
@@ -50,7 +49,7 @@
     width: 95%;
 
     font-family: 'Noto Sans Display', 'Arial', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
 }
 .resume-contact {
     text-decoration: none;
@@ -72,9 +71,7 @@
     margin-right: 1rem;
     width: 95%;
     font-family: 'Noto Sans Display', 'Arial', sans-serif;
-    font-size: 1.3rem;
-    font-weight: 600;
-    color: hsl(197, 78%, 25%);
+    
 }
 
 .resume-section-body {
@@ -93,7 +90,10 @@
     margin: 5px 0 0 0;
 }
 .resume h2 {
-    font-size: 1.2rem;
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: hsl(197, 78%, 25%);
 }
 
 .resume h3 {
@@ -103,7 +103,7 @@
 }
 .resume p {
     font-size: 1.1rem;
-    margin-top: 0.5rem;
+    margin-top: 0.3rem;
     margin-bottom: 1.5rem;
     width: 96%;
 }
@@ -115,6 +115,7 @@
 
 
 .when-and-where {
+    font-weight: 300;
     font-size: 1rem;
     color: hsl(0, 0%, 20%);
     text-transform: uppercase;
@@ -141,9 +142,6 @@
     .resume-paper {
         width: 960px;
         margin: 0 auto;
-        border-right: 2px solid hsl(34, 68%, 82%);
-        border-left: 2px solid hsl(34, 68%, 82%);
-        background-color: hsl(34, 78%, 92%);
     }
     
     .resume-section {
