@@ -1,0 +1,1 @@
+This is a React project in JS for my resumepage on https://djlunarmonk.github.io - it doesn't use any APIs or anything like that. It loads my merits from a JSON-file into HTML elements, simple as that.
