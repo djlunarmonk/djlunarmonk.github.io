@@ -15,8 +15,10 @@ const ResumeHeader = ({personals}) => {
                         {personals.snailmail.address}<br />
                         {personals.snailmail.zipcode}&nbsp;{personals.snailmail.city}
                     </p>
-                    <a className='resume-contact' href="tel:+46(0)706398343">+46 (0)706-39 83 43</a><br />
-                    <a className='resume-contact' href='mailto:jonlundmark@gmail.com'>jonlundmark@gmail.com</a>
+                    <a className='resume-contact' href={'tel:' + personals.phone.link}>{personals.phone.text}</a><br />
+                    <a className='resume-contact' href={'mailto:' + personals.email}>{personals.email}</a><br />
+                    <a className='resume-contact' id='linkedin' href={personals.linkedin}>LinkedIn</a><br />
+                    <a className='resume-contact' id='github' href={personals.github}>GitHub</a>
                 </div>
             </div>)
 }

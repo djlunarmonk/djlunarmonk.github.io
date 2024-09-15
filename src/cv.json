@@ -6,8 +6,13 @@
             "snailmail": {  "address": "Egilsgatan 17B",
                         "zipcode": "753 35",
                         "city": "Uppsala"},
-            "phone": "(+46) 0706 - 39 83 43",
-            "email": "jonlundmark@gmail.com"
+            "phone": {
+                "link": "+46706398343",
+                "text": "+46 0706 - 39 83 43"
+            },
+            "email": "jonlundmark@gmail.com",
+            "linkedin": "https://www.linkedin.com/in/jon-lundmark-303269291/",
+            "github": "https://github.com/djlunarmonk/"
         },
         "sections": [ { "title": "I korthet",
                         "body": "En öppen person med breda erfarenheter, en lagspelare som är bra på att lyssna. Stort musikintresse. Skrev mitt första spel i BASIC 1989 har sedan dess stimulerats av att kommunicera både med och genom datorer.",

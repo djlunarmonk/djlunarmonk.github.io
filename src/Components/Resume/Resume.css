@@ -232,6 +232,9 @@
         font-size: 1rem;
         color: hsl(197, 78%, 25%);
     }
+    #linkedin, #github {
+        display: none;
+    }
 
     .resume-section {
         display: flex;
@@ -242,7 +245,7 @@
     }
 
     .resume-section-header {
-        padding-top: 5pt; 
+        padding-top: 5pt;
         width: 20%;
         display: flex;
         justify-content: flex-start;
