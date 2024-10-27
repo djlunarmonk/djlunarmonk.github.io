@@ -218,10 +218,11 @@
         justify-content: center;
         align-items: center;
     }
+
     .resume-header-personals {
         border-top: 5pt solid hsl(197, 78%, 25%);
         padding: 0;
-        margin-bottom: 1rem;
+        margin-bottom: 3pt;
         width: 80%;
         line-height: normal;
         font-family: 'Noto Sans Display', 'Arial', sans-serif;
@@ -229,7 +230,7 @@
     }
     .resume-contact {
         text-decoration: none;
-        font-size: 1rem;
+        font-size: 12pt;
         color: hsl(197, 78%, 25%);
     }
     #linkedin, #github {
@@ -255,6 +256,7 @@
     .resume-section-body {
         border-top: 5pt solid hsl(197, 78%, 25%);
         padding: 5pt;
+        padding-bottom: 3pt;
         width: 80%;
     }
 
@@ -263,7 +265,7 @@
         font-weight: 500;
     }
     .resume h1 {
-        font-size: 16pt;
+        font-size: 14pt;
         font-weight: 700;
         margin: 5px 0 0 0;
     }
