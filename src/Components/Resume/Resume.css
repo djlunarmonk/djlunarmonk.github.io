@@ -202,6 +202,7 @@
         justify-content: flex-start;
         align-items: space-between;
         background-color: none;
+        border: none;
     }
     .headshot {
         max-width: none;
